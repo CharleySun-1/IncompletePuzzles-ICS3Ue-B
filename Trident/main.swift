@@ -16,15 +16,16 @@ print("=======")
 // INPUT
 
 // Get tine length
-print("Enter tine length:")
-print("   ", terminator: "")
+print("Enter tine length:", terminator: "")
 let tineLength = Int(readLine()!)!
 
 // Get tine spacing
-print("Enter tine spacing:")
-print("   ", terminator: "")
+print("Enter tine spacing:", terminator: "")
 let spacing = Int(readLine()!)!
 
+// Get handle length
+print("Enter handle length:", terminator: "")
+let handleLength = Int(readLine()!)!
 // OUTPUT
 
 // Produce top of trident according to length given
@@ -38,6 +39,9 @@ for _ in 1...tineLength {
         // Print space between tines
         for _ in 1...spacing {
             print(" ", terminator: "")
+            for _ in 1...handleLength {
+                print("*", terminator: "")
+            }
         }
         
     }
