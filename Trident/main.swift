@@ -17,36 +17,42 @@ print("=======")
 
 // Get tine length
 print("Enter tine length:", terminator: "")
-let tineLength = Int(readLine()!)!
+let t = Int(readLine()!)!
 
 // Get tine spacing
 print("Enter tine spacing:", terminator: "")
-let spacing = Int(readLine()!)!
+let s = Int(readLine()!)!
 
 // Get handle length
 print("Enter handle length:", terminator: "")
-let handleLength = Int(readLine()!)!
+let h = Int(readLine()!)!
+
+
+
 // OUTPUT
 
-// Produce top of trident according to length given
-for _ in 1...tineLength {
-    // Print the tines
-    for _ in 1...3 {
-        
-        // Print part of a tine
-        print("*", terminator: "")
-        
-        // Print space between tines
-        for _ in 1...spacing {
-            print(" ", terminator: "*")
-            for _ in 1...handleLength {
-                print("", terminator: "")
-            }
-        }
-        
-    }
-    // Go to next line of output
-    print("")
+// Draw one time
+for _ in 1...t {
+    print("*")
 }
+
+// Produce top of trident according to length given
+//for _ in 1...t {
+//    // Print the tines
+//    for _ in 1...3 {
+//
+//        // Print part of a tine
+//        print("*", terminator: "")
+//
+//        // Print space between tines
+//        for _ in 1...s {
+//            print(" ", terminator: "*")
+//
+//        }
+//
+//    }
+//    // Go to next line of output
+//    print("")
+//}
 
 
