@@ -39,17 +39,28 @@ for _ in 1...t {
        
         for _ in 1...s {
         // Print the spaces
-        print("", terminator: "")
+        print(" ", terminator: "")
        }
     }
     
-    // ROw complete... go to next line
-    print("")
+    // Row complete... go to next line
+    // The \n character sequence
+    // Pushes content down to next line
+    print("\n", terminator: "")
 }
 
+// Making the connecter of the trident
+for _ in 1...2 * s + 3 {
+    print("*", terminator: "")
 
+}
 
+// Making the handle of the trident
+for _ in 1...h {
+    print("\n", terminator: "")
+    print("*", terminator: "")
 
+}
 
 
 
