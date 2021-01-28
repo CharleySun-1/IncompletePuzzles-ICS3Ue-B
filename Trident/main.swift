@@ -40,8 +40,12 @@ let h = Int(readLine()!)!
 for _ in 1...3 {
     // Print star
     print("*", terminator: "")
+   
+    for _ in 1...s {
+    // Print the spaces
+    print("", terminator: "")
+   }
 }
-
 
 
 
