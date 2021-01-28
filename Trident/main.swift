@@ -38,9 +38,9 @@ for _ in 1...tineLength {
         
         // Print space between tines
         for _ in 1...spacing {
-            print(" ", terminator: "")
+            print(" ", terminator: "*")
             for _ in 1...handleLength {
-                print("*", terminator: "")
+                print("", terminator: "")
             }
         }
         
