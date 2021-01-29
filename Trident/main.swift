@@ -54,33 +54,19 @@ for _ in 1...2 * s + 3 {
     print("*", terminator: "")
 
 }
+print("\n", terminator: "")
 
 // Making the handle of the trident
+
 for _ in 1...h {
-    print("\n", terminator: "")
-    print("*", terminator: "")
+    
+    for _ in 1...s+1 {
+        print(" ", terminator: "")
+    }
+   
+    print("*")
+    }
 
-}
 
-
-
-// Produce top of trident according to length given
-//for _ in 1...t {
-//    // Print the tines
-//    for _ in 1...3 {
-//
-//        // Print part of a tine
-//        print("*", terminator: "")
-//
-//        // Print space between tines
-//        for _ in 1...s {
-//            print(" ", terminator: "*")
-//
-//        }
-//
-//    }
-//    // Go to next line of output
-//    print("")
-//}
 
 
