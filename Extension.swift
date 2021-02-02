@@ -15,7 +15,7 @@ extension Int {
         while true {
             
             // Prompt the user
-            print(prompt)
+            print(prompt, terminator: "")
             
             // Collect the input
             guard let givenInput = readLine() else {

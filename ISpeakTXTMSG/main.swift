@@ -16,8 +16,7 @@ print("==============")
 // INPUT
 
 // Ask for a phrase
-print("Enter phrase> ", terminator: "")
-let phrase = readLine()!
+var phrase = String.collectInput(withPrompt: <#T##String#>, acceptableValues: nil)
 
 // PROCESS
 // Parameters are inputs to the function
