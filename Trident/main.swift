@@ -28,10 +28,10 @@ print("Enter handle length:", terminator: "")
 let h = Int(readLine()!)!
 
 
-
 // OUTPUT
 
 // Draw all the tines
+
 for _ in 1...t {
     for _ in 1...3 {
         // Print star
@@ -50,6 +50,7 @@ for _ in 1...t {
 }
 
 // Making the connecter of the trident
+
 for _ in 1...2 * s + 3 {
     print("*", terminator: "")
 
