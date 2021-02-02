@@ -16,7 +16,7 @@ print("==============")
 // INPUT
 
 // Ask for a phrase
-var phrase = String.collectInput(withPrompt: <#T##String#>, acceptableValues: nil)
+var phrase = String.collectInput(withPrompt: "Enter the TXTMSG you want to convert: ", acceptableValues: nil)
 
 // PROCESS
 // Parameters are inputs to the function
